@@ -52,7 +52,7 @@ export const DocumentsTable = ({documents,loadMore,status}: DocumentsTableProps)
                     )}
                 </Table>
             )}
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center"> 
                 <Button variant="ghost" size="sm" onClick={()=>loadMore(5)} disabled={status!=="CanLoadMore"}>
                     {status === "CanLoadMore" ? "Load More" : "End Of Results"}
                 </Button>
