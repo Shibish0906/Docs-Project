@@ -7,7 +7,7 @@ import { api } from "../../../convex/_generated/api";
 import { DocumentsTable } from "./documents-table";
 import { useSearchParam } from "@/hooks/use-search-params";
 
-export const Home = () => {
+const Home = () => {
   const [search] = useSearchParam()
   const {
     results, 

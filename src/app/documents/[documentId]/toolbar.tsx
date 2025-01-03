@@ -1,7 +1,7 @@
 "use client"
 
-import {type ColorResult, CirclePicker, SketchPicker} from "react-color";;
-import {AlignCenterIcon, AlignJustifyIcon, AlignLeftIcon, AlignRightIcon, BoldIcon, ChevronDown, ChevronDownIcon, Highlighter, HighlighterIcon, ImageIcon, ItalicIcon, Link2Icon, ListTodoIcon,ListOrderedIcon, ListIcon, LucideIcon, MessageSquarePlusIcon, PrinterIcon, Redo2Icon, RemoveFormattingIcon, SearchIcon, SpellCheckIcon, UnderlineIcon, Undo2Icon, UploadIcon, MinusIcon, PlusIcon, ListCollapseIcon} from "lucide-react";
+import {type ColorResult, SketchPicker} from "react-color";;
+import {AlignCenterIcon, AlignJustifyIcon, AlignLeftIcon, AlignRightIcon, BoldIcon, ChevronDownIcon, HighlighterIcon, ImageIcon, ItalicIcon, Link2Icon, ListTodoIcon,ListOrderedIcon, ListIcon, LucideIcon, MessageSquarePlusIcon, PrinterIcon, Redo2Icon, RemoveFormattingIcon, SearchIcon, SpellCheckIcon, UnderlineIcon, Undo2Icon, UploadIcon, MinusIcon, PlusIcon, ListCollapseIcon} from "lucide-react";
 import {type Level} from "@tiptap/extension-heading"
 import {cn} from "@/lib/utils"
 import { useEditorStore } from "@/store/use-editor-store";
